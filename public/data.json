@@ -1,0 +1,42 @@
+[
+    {
+        "name":"abdelrhman",
+        "age":"23",
+        "city":"Damitta"
+    },
+    {
+        "name":"Adel",
+        "age":"22",
+        "city":"cairo"
+    },
+    {
+        "name":"Mohamed",
+        "age":"23",
+        "city":"Damitta"
+    },  {
+        "name":"khaled",
+        "age":"20",
+        "city":"moubarak"
+    },  {
+        "name":"Assad",
+        "age":"30",
+        "city":"ghonaimia"
+    },  {
+        "name":"zaghlol",
+        "age":"8",
+        "city":"sharkia"
+    },  {
+        "name":"mahmoud ",
+        "age":"10",
+        "city":"dakahlia"
+    },  {
+        "name":"mostafa ",
+        "age":"18",
+        "city":"bein sweif"
+    },  {
+        "name":"Magdy",
+        "age":"23",
+        "city":"mansoura"
+    }
+
+]
