@@ -14,7 +14,7 @@ export default class comp extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="main">
                 <table className="table">
                 <th>Name</th>
                 <th>Age</th>

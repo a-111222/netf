@@ -14,3 +14,7 @@ table th{
     font-size: 3rem;
     padding-bottom: 5%;
 }
+.main{
+    display: inline-table;
+    width: 100%;
+}
