@@ -21,7 +21,7 @@ componentDidMount(){
           <Row>
           {this.state.Films.map(Film=>
             <Col className="Col" xs={5} s={12} lg={4} md={5}  xl={4}>
-            <img src={Film.img}/>
+            <img src={Film.img} alt=""/>
             <h1>{Film.name}</h1>
             <p className="pragraph">{Film.year}</p>
             </Col>)}
