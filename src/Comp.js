@@ -21,9 +21,7 @@ componentDidMount(){
           <Row>
           {this.state.Films.map(Film=>
             <Col className="Col" xs={5} s={12} lg={4} md={5}  xl={4}>
-            <div className="overlay">
-            <img src={Film.img} />
-            </div>
+            <img src={Film.img}/>
             <h1>{Film.name}</h1>
             <p className="pragraph">{Film.year}</p>
             </Col>)}
