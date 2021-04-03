@@ -4,11 +4,12 @@
     color: #FFF;
 }
 .main-title{
-    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     color: #e50914;
-    font-family: fantasy;
     letter-spacing: 6px;
     font-size: 3.4rem;
+    text-align: center;
 }
 .Container{
     height: 100%;
