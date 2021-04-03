@@ -1,38 +1,37 @@
 import './App.css';
 import axios from 'axios';
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 export default class comp extends Component {
-    state={
-        persons:[],
-    }
-    componentDidMount(){
-        axios.get('./data.json').then(res=>{
-            console.log(res.data);
-            this.setState({persons:res.data});
-        })
-    }
+state={
+  Films:[],
+}
+componentDidMount(){
+  axios.get('./data.json').then(item=>{
+    this.setState({Films:item.data.films});
+  })
+}
     render() {
-        return (
-            <div className="main">
-                <table className="table">
-                <th>Name</th>
-                <th>Age</th>
-                <th>Address</th>
-             
-
-                {this.state.persons.map(person=>
-                    
-                    <tr key="id">
-                        <td>{person.name}</td>
-                        <td>{person.age}</td>
-                        <td>{person.city}</td>
-
-
-
-                    </tr> )}
-                       </table>
+      return (
+          <Container className="Container">
+          <Row>
+          {this.state.Films.map(Film=>
+            <Col className="Col" xs={5} s={12} lg={4} md={5}  xl={4}>
+            <div className="overlay">
+            <img src={Film.img} />
             </div>
+            <h1>{Film.name}</h1>
+            <p className="pragraph">{Film.year}</p>
+            </Col>)}
+          </Row>
+        </Container>
+    
+       
+      
         )
     }
 }

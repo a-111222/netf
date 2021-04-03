@@ -5,7 +5,8 @@ function App() {
   return (
     
     <div className="App">
-     <h1> GET DATA FROM JSON FILE BY Axios Lib. </h1>
+     <h1 className="main-title"> NETFLIX </h1>
+     <p>الأفلام الاكثر مشاهدة </p>
       <Comp/>
     </div>
   );

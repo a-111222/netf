@@ -1,42 +1,67 @@
-[
+{
+    "films":[
     {
-        "name":"abdelrhman",
-        "age":"23",
-        "city":"Damitta"
+        "id":1,
+        "name":"The Irishman",
+        "year":"2019",
+        "rate":"7.9",
+        "img":"/img/a.jpg"
+        
     },
     {
-        "name":"Adel",
-        "age":"22",
-        "city":"cairo"
+        "id":2,
+        "name":"1917",
+        "year":"2019",
+        "rate":"8.4",
+        "img":"/img/b.jpg"
     },
     {
-        "name":"Mohamed",
-        "age":"23",
-        "city":"Damitta"
+        "id":3,
+        "name":"Django Unchained",
+        "year":"2012",
+        "rate":"8.4",
+        "img":"/img/c.jpg"
+      
     },  {
-        "name":"khaled",
-        "age":"20",
-        "city":"moubarak"
+        "id":4,
+        "name":"Inglourious Basterds",
+        "year":"2009",
+        "rate":"8.3",
+        "img":"/img/d.jpg"
+      
     },  {
-        "name":"Assad",
-        "age":"30",
-        "city":"ghonaimia"
+        "id":5,
+        "name":"Parasite ",
+        "year":"2019",
+        "rate":"8.6",
+        "img":"/img/e.jpg"
     },  {
-        "name":"zaghlol",
-        "age":"8",
-        "city":"sharkia"
+        "id":6,
+        "name":"The Imitation Game",
+        "year":"2014",
+        "rate":"8.0",
+        "img":"/img/m.jpg"
+   
     },  {
-        "name":"mahmoud ",
-        "age":"10",
-        "city":"dakahlia"
+        "id":7,
+        "name":"The Shawshank Redemption",
+        "year":"1994",
+        "rate":"9.3",
+        "img":"/img/f.jpg"
+
     },  {
-        "name":"mostafa ",
-        "age":"18",
-        "city":"bein sweif"
+        "id":8,
+        "name":"12 Years a Slave ",
+        "year":"2013",
+        "rate":"8.1",
+        "img":"/img/g.jpg"
+        
     },  {
-        "name":"Magdy",
-        "age":"23",
-        "city":"mansoura"
+        "id":9,
+        "name":"Forrest Gump",
+        "year":"1994",
+        "rate":"8.8",
+        "img":"/img/l.jpg"
     }
 
-]
+]}

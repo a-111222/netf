@@ -1,20 +1,50 @@
 *{
     text-align: center;
-}
-table{
-    width: 100%;
-    text-align: center;
-    padding: 5%;
-    display: table;
-    background: #060606;
+    background: #000;
     color: #FFF;
-    font-size: 2rem;
 }
-table th{
-    font-size: 3rem;
-    padding-bottom: 5%;
+.main-title{
+    padding: 2%;
+    color: #e50914;
+    font-family: fantasy;
+    letter-spacing: 6px;
+    font-size: 3.4rem;
 }
-.main{
-    display: inline-table;
+.Container{
+    height: 100%;
     width: 100%;
+}
+.Container .Col{
+    display: inline;
+    padding: 0 2%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    height: 350px;
+    margin-bottom: 10%;
+
+}
+.Col h1 , .pragraph{
+    color: #FFF;
+    position: absolute;
+    bottom: 10%;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 90%;
+    font-family: inherit;
+    left: 0;
+}
+.Col .pragraph{
+bottom: -3%;
+background-color: #e50914;
+color: #FFF;}
+.Col img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 175px;
+    height: 260px;
+    transform: translate(-50%);
+    cursor: pointer;
+
 }
